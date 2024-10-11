@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flexbox</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="jquery-ui.css">
+	<link rel="stylesheet" href="jquery-ui.structure.css">
+	<link rel="stylesheet" href="jquery-ui.theme.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+  </script>
+  <style>
+  .ui-menu { width: 150px; }
+  </style>
+</head>
+
+<div class="container">
+<header>My Flexbox</header>
+	
+	 <div></div>
+<ul id="menu">
+  <li class="ui-state-disabled"><div>H-E-B ROCKS (n/a)</div></li>
+  <li><div>Sushi</div></li>
+  <li><div>Burgers</div></li>
+  <li><div>Pasta</div>
+    <ul>
+      <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+      <li><div>Is Amazing</div></li>
+      <li><div>And yummy</div></li>
+    </ul>
+  </li>
+  <li><div>Asain</div></li>
+  <li><div>Cars</div>
+    <ul>
+      <li><div>Toyota</div>
+        <ul>
+          <li><div>Camery</div></li>
+          <li><div>4Runner</div></li>
+        </ul>
+      </li>
+      <li><div>Jeep</div>
+        <ul>
+          <li><div>Renegade</div></li>
+          <li><div>Wrangler</div></li>
+          <li><div>Grand Wagoneer</div></li>
+        </ul>
+      </li>
+      <li><div>Tesla</div></li>
+    </ul>
+  </li>
+  <li class="ui-state-disabled"><div> I LOVE WAFFLES (n/a)</div></li>
+</ul>
+	
+	
+	
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul><br>
+
+<div class="flex-container">
+  <div class="makeMeStack" style="flex-grow: 2">Have a</div>
+  <div class="makeMeStack" style="flex-grow: 1">great</div>
+	 <div class="makeMeStack" style="flex-grow: 1">day</div>
+  <div style="flex-grow: 2"> <p>We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.--That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed, --That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and Happiness. Prudence, indeed, will dictate that Governments long established should not be changed for light and transient causes; and accordingly all experience hath shewn, that mankind are more disposed to suffer, while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed. But when a long train of abuses and usurpations, pursuing invariably the same Object evinces a design to reduce them under absolute Despotism, it is their right, it is their duty, to throw off such Government, and to provide new Guards for their future security.--Such has been the patient sufferance of these Colonies; and such is now the necessity which constrains them to alter their former Systems of Government. The history of the present King of Great Britain is a history of repeated injuries and usurpations, all having in direct object the establishment of an absolute Tyranny over these States. To prove this, let Facts be submitted to a candid world. </p></div>
+    </div><br>
+	
+    <footer>Parker Mikkelson 2024 Copyright</footer>
+
+	</div>
+
+<body>
+</body>
+</html>

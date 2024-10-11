@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+	.container{
+		width:1020px;
+		margin:0 auto;
+	}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  background-color: aqua
+}
+
+.flex-container > div {
+  background-color: red;
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+}
+header{
+  width:100%;
+  height:30px;
+  background-color: aqua;
+}
+footer{
+  width:100%;
+  height:50px;
+  background-color:coral;
+}
+
+
+	@media (max-width: 1019px){
+		.container{width:90%;}
+		
+		.makeMeStack{
+			flex:100%;
+		}
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:chartreuse;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:blueviolet;
+}
+
+.active {
+  background-color: blueviolet
+}
