@@ -1,49 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
+body{
 	
-	.container{
-		width:1020px;
-		margin:0 auto;
-	}
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: stretch;
-  background-color: aqua
+	background: url("Bluesky.jpeg")fixed top right; 
+	background-size: cover;
+	
 }
-
-.flex-container > div {
-  background-color: red;
-  color: white;
-  margin: 10px;
-  font-size: 20px;
-  padding: 0 10px 0 10px;
-}
+	
 header{
-  width:100%;
-  height:30px;
-  background-color: aqua;
-}
-footer{
-  width:100%;
-  height:50px;
-  background-color:coral;
-}
+	
+	text-align: center
+}	
 
-
-	@media (max-width: 1019px){
-		.container{width:90%;}
-		
-		.makeMeStack{
-			flex:100%;
-		}
+ol li {
+  background: #FFFFFF;
+  color:black;
+  margin: 8px;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 15;
   padding: 0;
   overflow: hidden;
   background-color: #333;
@@ -55,16 +33,16 @@ li {
 
 li a {
   display: block;
-  color:chartreuse;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 17px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color:blueviolet;
+  background-color: red;
 }
 
 .active {
-  background-color: blueviolet
+  background-color: red;
 }
